@@ -1,7 +1,7 @@
 package com.dls.annuairegabon.enums;
 
 /**
- * Categories of merchant
+ * Merchants' categories
  * @author Damdoum
  */
 public enum MerchantCategoryEnum {

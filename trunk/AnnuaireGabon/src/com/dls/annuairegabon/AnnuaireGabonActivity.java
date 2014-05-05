@@ -13,6 +13,10 @@ import com.dls.annuairegabon.application.AnnuaireGabonApplication;
 import com.dls.annuairegabon.enums.AnnuaireGabonScreenType;
 import com.dls.annuairegabon.views.fragments.MerchantsListFragment;
 
+/**
+ * The Annuaire Gabon Main Activity
+ * @author Damdoum
+ */
 public class AnnuaireGabonActivity extends ActionBarActivity {
 	/** Tag for log event*/
 	protected final String LOG_TAG = getClass().getSimpleName();
@@ -26,6 +30,7 @@ public class AnnuaireGabonActivity extends ActionBarActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		Log.d(LOG_TAG, "OnCreate");
 
 		// Set the main content view
 		setContentView(R.layout.annuaire_gabon_layout);
@@ -68,6 +73,7 @@ public class AnnuaireGabonActivity extends ActionBarActivity {
 	 */
 	@SuppressWarnings("unused")
 	private void clearFragmentManager() {
+		Log.d(LOG_TAG, "clearFragmentManager");
 		FragmentManager fragmentManager = getSupportFragmentManager();
 		for(int i = 0; i < fragmentManager.getBackStackEntryCount(); ++i) {    
 			fragmentManager.popBackStackImmediate();
@@ -78,6 +84,7 @@ public class AnnuaireGabonActivity extends ActionBarActivity {
 	 * Show the merchants list
 	 */
 	public void showMerchantsList(){
+		Log.d(LOG_TAG, "showMerchantsList");
 		// Initiate a new fragment
 		MerchantsListFragment merchantsListFragment = new MerchantsListFragment();
 
@@ -92,6 +99,7 @@ public class AnnuaireGabonActivity extends ActionBarActivity {
 	// ----------------------------------------- Action bar management -----------------------------------------//
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
+		Log.d(LOG_TAG, "onCreateOptionsMenu");
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.annuaire_gabon, menu);
 		return true;
@@ -99,6 +107,7 @@ public class AnnuaireGabonActivity extends ActionBarActivity {
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
+		Log.d(LOG_TAG, "onOptionsItemSelected");
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
@@ -114,6 +123,7 @@ public class AnnuaireGabonActivity extends ActionBarActivity {
 	 * @param fragmentId
 	 */
 	public void changeActionBar(int fragmentId){
+		Log.d(LOG_TAG, "changeActionBar");
 		//TODO remplir en fonction des ecrans
 	}
 }
