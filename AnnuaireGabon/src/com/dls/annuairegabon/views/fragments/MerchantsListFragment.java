@@ -9,6 +9,10 @@ import android.widget.RelativeLayout;
 
 import com.dls.annuairegabon.R;
 
+/**
+ * The fragment of list of merchants
+ * @author Damdoum
+ */
 public class MerchantsListFragment extends Fragment{
 	/** Tag for log event */
 	protected final String LOG_TAG = getClass().getSimpleName();
