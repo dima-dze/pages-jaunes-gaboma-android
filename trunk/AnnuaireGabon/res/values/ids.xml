@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="fragmentSearch"/>
+    <item type="id" name="fragmentLogin"/>
+    <item type="id" name="fragmentDashboard"/>
+    <item type="id" name="fragmentMerchantsList"/>
+</resources>
