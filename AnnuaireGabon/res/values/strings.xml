@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+	<!-- General -->
     <string name="app_name">Annuaire Gabon</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-
+    <!-- /General -->
+    
+    <!-- Action Menu -->
+    <string name="action_menu_settings">Settings</string>
+    <string name="action_menu_search">Search</string>
+	<!-- /Action Menu -->
+	
+	<!-- Navigation Drawer Items -->
+	<string-array name="navigation_drawer_items_array">
+        <item>Home</item>
+        <item>Favorites</item>
+        <item>Offers</item>
+        <item>Search</item>
+        <item>Account</item>
+        <item>Settings</item>
+        <item>Help</item>
+        <item>About</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+	<!-- /Navigation Drawer Items -->
 </resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- General -->
+    <string name="app_name">Annuaire Gabon</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- /General -->
+    
+    <!-- Action Menu -->
+    <string name="action_menu_settings">Paramètres</string>
+    <string name="action_menu_search">Recherche</string>
+	<!-- /Action Menu -->
+	
+	<!-- Navigation Drawer Items -->
+	<string-array name="navigation_drawer_items_array">
+        <item>Accueil</item>
+        <item>Favoris</item>
+        <item>Promotions</item>
+        <item>Recherche</item>
+        <item>Compte</item>
+        <item>Paramètres</item>
+        <item>Aide</item>
+        <item>A propos</item>
+    </string-array>
+    <string name="drawer_open">Ouvrir le panneau de navigation</string>
+    <string name="drawer_close">Fermer le panneau de navigation</string>
+	<!-- /Navigation Drawer Items -->
+</resources>

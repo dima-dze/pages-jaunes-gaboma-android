@@ -1,0 +1,22 @@
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dls.annuairegabon.AnnuaireGabonActivity" >
+
+    <!-- Search Item -->
+    <item
+        android:id="@+id/action_item_search"
+        android:icon="@drawable/ic_action_search"
+        android:orderInCategory="110"
+        android:showAsAction="always"
+        android:title="@string/action_menu_search"/>
+
+    <!-- Settings Item -->
+    <item
+        android:id="@+id/action_item_settings"
+        android:icon="@drawable/ic_action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_menu_settings"
+        app:showAsAction="always"/>
+</menu>
