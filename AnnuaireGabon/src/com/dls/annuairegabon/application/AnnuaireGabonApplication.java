@@ -1,7 +1,6 @@
 package com.dls.annuairegabon.application;
 
 import android.app.Application;
-import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 
@@ -19,7 +18,7 @@ public class AnnuaireGabonApplication extends Application {
 	public final String EMPTY_STRING = "";
 	
 	/** Current context & activity */
-	private static Context context;
+//	private static Context context;
 	
 	/** Current Screen Type & Fragment */
 	private AnnuaireGabonScreenType currentScreenType;
@@ -34,7 +33,7 @@ public class AnnuaireGabonApplication extends Application {
 		Log.d(LOG_TAG, "On Create");
 		
 		// Instantiate the context
-		context = getApplicationContext();
+//		context = getApplicationContext();
 	}
 
 	// ----------------------------------------- Getters & Setters -----------------------------------------//
