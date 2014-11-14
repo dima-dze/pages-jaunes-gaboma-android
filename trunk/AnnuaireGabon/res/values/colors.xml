@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Generic colors -->
+	<color name="red">#ff0000</color>
+	<color name="blue">#0000ff</color>
+	<color name="green">#00ff00</color>
+	<color name="pink">#F5A9F2</color>
+	<color name="black">#000000</color>
+	<color name="grey">#808080</color>
+	<color name="white">#FFFFFF</color>
+	<color name="lightGrey">#DDDDDD</color>
+	<!-- /Generic colors -->
+	
+	<!-- Gabon Colors -->
+	<color name="vert_gabon">#449B44</color>
+	<color name="jaune_gabon">#fffD21</color>
+	<color name="bleu_gabon">#1D2B75</color>
+	<!-- /Gabon Colors -->
+</resources>
